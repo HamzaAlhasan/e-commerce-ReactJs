@@ -1,0 +1,53 @@
+.header{
+    background-color: black;
+    padding: 20px 200px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex .logo{
+    text-transform: capitalize;
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+    font-size: 1.8rem;
+    }
+    .menu a{
+        margin-left: 30px;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.2rem;
+        transition: .5s;
+        text-transform: capitalize;
+    }
+    .menu a:hover{
+        color: tomato;
+    }
+    .container-input {
+        position: relative;
+      }
+      
+      .input1 {
+        width: 150px;
+        padding: 10px 0px 10px 40px;
+        border-radius: 9999px;
+        border: solid 1px #333;
+        transition: all .2s ease-in-out;
+        outline: none;
+        opacity: 0.8;
+      }
+      
+      .container-input svg {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translate(0, -50%);
+      }
+      
+      .input1:focus {
+        opacity: 1;
+        width: 250px;
+      }
